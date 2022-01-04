@@ -35,7 +35,18 @@
           $('table.display').DataTable({
               paging: true,
               stateSave: true,
-              searching: true
+              searching: true,
+              columns: [
+                null,
+                null,
+                { "searchable": false },
+                { "searchable": false },
+                { "searchable": false },
+                { "searchable": false },
+                { "searchable": false },
+                { "searchable": false },
+                { "searchable": false },
+              ]
           });
         });
     });
