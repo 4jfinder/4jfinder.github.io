@@ -31,7 +31,7 @@
           });
           var html = converter.makeHtml(data);
           document.querySelector("#cisalist").innerHTML = html;
-          $('#cisalist').children('table').addClass('display');
+          $('#cisalist').children('table').eq(1).addClass('display');
           $('table.display').DataTable({
               paging: true,
               stateSave: true,
