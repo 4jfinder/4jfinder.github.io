@@ -4,4 +4,4 @@
 ## How to use
  Download the index.html and cisalist.css files and run from your local computer.
 
- Hosted version at searchable-log4j-database.github.io
+ Hosted version at 4jfinder.github.io
