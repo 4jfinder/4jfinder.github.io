@@ -50,7 +50,7 @@
     }
 
     $(document).ready(function() {
-      fetch("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json")
+      fetch("https://raw.githubusercontent.com/4jfinder/4jfinder.github.io/main/known_exploited_vulnerabilities.json")
         .then(response => {
           return response.json()
         })
