@@ -139,7 +139,7 @@
   </header>
 
 
-  <section class="py-5" id="features">
+  <section class="pt-5 pb-2" id="overview">
     <div class="container">
       <div id="main" class="col-md-9 mx-auto mt-4 p-2">
         <div class="row">
@@ -184,43 +184,47 @@
   </section>
 
   <!-- Table "cisalist" pulled from CISA GitHub repo through javascript above -->
-  <div class="py-2 container">
-    <div class="col-12" id="cisalist">
-      <!-- Loading screen for slow load times -->
-      <div class="loader">
-        <div class="duo duo1">
-          <div class="dot dot-a"></div>
-          <div class="dot dot-b"></div>
+  <section id="affectedsoftware">
+    <div class="py-2 container">
+      <div class="col-md-9" id="cisalist">
+        <!-- Loading screen for slow load times -->
+        <div class="loader">
+          <div class="duo duo1">
+            <div class="dot dot-a"></div>
+            <div class="dot dot-b"></div>
+          </div>
+          <div class="duo duo2">
+            <div class="dot dot-a"></div>
+            <div class="dot dot-b"></div>
+          </div>
         </div>
-        <div class="duo duo2">
-          <div class="dot dot-a"></div>
-          <div class="dot dot-b"></div>
+        <div class="col-md-6 mx-auto p-5 text-center">
+          <div class="display-4">Loading data...</div>
         </div>
-      </div>
-      <div class="col-md-6 mx-auto p-5 text-center">
-        <div class="display-4">Loading data...</div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Footer -->
-  <div class="py-2 container">
-    <div class="col-md-9 mx-auto mt-4 p-2">
-      <p>
-        Data loaded from the
-        <a href="https://github.com/cisagov/log4j-affected-db">CISA Log4j (CVE-2021-44228) Affected Vendor & Software List</a>
-        GitHub repository, maintained by the
-        <a href="https://www.cisa.gov/">US Cybersecurity and Infrastructure Security Agency (CISA)</a>.
-      </p>
-      <p>
-        Searchable index by <a href="https://beauwoods.com">Beau Woods</a> and
-        <a href="https://mobile.twitter.com/arcon">Adam Bregenzer</a>,
-        licensed CC0 and in the public domain<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-          <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none" alt="CC0" /></a>. Find the code on
-        <a href="https://github.com/beauwoods/cisa-log4j-searchable">GitHub</a>.
-      </p>
+  <section id="footer">
+    <div class="pt-2 pb-5 container">
+      <div class="col-md-9 mx-auto mt-4 p-2">
+        <p>
+          Data loaded from the
+          <a href="https://github.com/cisagov/log4j-affected-db">CISA Log4j (CVE-2021-44228) Affected Vendor & Software List</a>
+          GitHub repository, maintained by the
+          <a href="https://www.cisa.gov/">US Cybersecurity and Infrastructure Security Agency (CISA)</a>.
+        </p>
+        <p>
+          Searchable index by <a href="https://beauwoods.com">Beau Woods</a> and
+          <a href="https://mobile.twitter.com/arcon">Adam Bregenzer</a>,
+          licensed CC0 and in the public domain<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+            <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none" alt="CC0" /></a>. Find the code on
+          <a href="https://github.com/beauwoods/cisa-log4j-searchable">GitHub</a>.
+        </p>
+      </div>
     </div>
-  </div>
+  </section>
 
   <!-- Popper and Bootstrap Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
